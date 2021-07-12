@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng Ký</title>
+	<link rel="icon" type="image/ico" href="Contents/img/logo.png" />
+</head>
+<body style="background-color: bisque;">
+	    <div class="to">
+          <div class="form">
+	            <h2>Đăng ký tài khoản</h2>
+	            <a href="index.html"><img src="Contents/img/logo.png" height="100"></a>
+	            <form action="" method="POST">
+	              	<p>
+	                	Tên đăng nhập:
+	               		<input placeholder="Username" type="text" name="username">
+	              	</p>
+	              	<p>
+	                	Mật khẩu:
+	                	<input placeholder="Password" type="Password" name="password">
+	             	</p>
+	              	<p>
+	                	Email:
+	                	<input placeholder="Email" type="text" name="email">
+	              	</p>
+	             	<p>
+	               	 	Họ và tên:
+	                	<input placeholder="Fullname" type="text" name="fullname">
+	              	</p>
+	              	<p>
+			            Ngày sinh:
+			            <input placeholder="dd/mm/yyyy" type="text" name="birthday">
+	          		</p>
+	          		<p>
+			           	Giới tính:
+			            <select name="sex">                           
+			                    <option value="Nam">Nam</option>
+			                    <option value="Nu">Nữ</option>
+		               	</select>
+          			</p>
+	          	<hr class="vertical-space">
+	              	<p><input type="submit" value="Đăng ký" name="dangky"/></p>
+	                <p><input type="submit" value="Nhập lại"/></p>
+	        </form>
+	    </div>
+    </div>
+    <style type="text/css">
+    	*{
+		    margin:0;
+		    padding:0;
+		    border:none;
+		    font-family: 'Open Sans', sans-serif;
+		}
+		body {
+		    background-color: #1a6187;
+		}
+		.to {
+		    display: grid;
+		    grid-template-columns: repeat(12,1fr);
+		    grid-template-rows: minmax(70px,auto);
+		    margin-bottom: 50px;
+		}
+		.form {
+		    border: 1px solid #80808;
+		    grid-column: 5/9;
+		    grid-row: 2;
+		    height: 720px;
+		    width: 450px;
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    position: relative;
+		    border-radius: 15px;
+		    box-shadow: 0px 0px 14px 0px grey;
+		    background-color: white;
+		}
+		.left ul li {
+		    list-style: none;
+		}
+		h2 {
+		    margin-top: 50px;
+		    margin-bottom: 10px;
+		    color: #1a6187;
+		    font-size: 36px;
+		}
+		img {
+		    display: block;
+		    margin-bottom: 20px;
+		    font-size: 28px;
+		}
+		.left p {
+		    margin-top: 20px;
+		    color: #fff;
+		}
+
+		.add{
+		    margin-top: 30px;
+		}
+		p {
+		    display: block;
+		    font-weight: lighter;
+		}
+		input{
+		    display: block;
+		    border-bottom: 2px solid #00BCD4;
+		    margin-top: 6px;
+		    margin-bottom: 10px;
+		    outline-style: none;
+		}
+		input[type="text"] {
+		    padding: 5px;
+		    width: 270px;
+		}
+		input[type="password"] {
+		    padding: 5px;
+		    width: 270px;
+		}
+		 
+		input[type="submit"] {
+		    padding: 7px;
+		    width: 50%;
+		    border-radius: 10px;
+		    border: none;
+		    cursor: pointer;
+		    text-align: center;
+		    margin-left: 67px;
+		    margin-top: 20px;
+		    background: linear-gradient(to right, #fc00ff, #00dbde);
+		}
+		input[type="submit"]:hover{
+		 
+		    background: linear-gradient(to right, #fc466b, #3f5efb); 
+		}
+		.vertical-space{
+		    height: 30px;
+		}
+    </style>
+</body>
+</html>

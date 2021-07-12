@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Đăng nhập</title>
+	<link rel="icon" type="image/ico" href="Contents/img/logo.png" >
+</head>
+<body style="background-color: bisque;">
+	<div class="to">
+            <form>
+                <h1>ĐĂNG NHẬP</h1>
+                <a href="index.html"><img src="Contents/img/logo.png" height="100"></a>
+                <p>
+                    Tên đăng nhập:
+                    <input type='text' placeholder="Username" name='username'/>
+                </p>
+                <p>
+                    Mật khẩu:
+                    <input type='password' placeholder="Password" name='password'/>
+                </p>
+                <p>
+                    <input type='submit' name="login" value='Đăng nhập'/>
+                </p>
+                <a href='dangky.html' name='dangky'>Bạn chưa đăng ký?</a>
+            </form>
+    </div>
+
+    <style type="text/css">
+        	*{
+		    margin:0;
+		    padding:0;
+		    border:none;
+		    font-family: 'Roboto', Open Sans,arial,helvatica !important;
+			}
+			body {
+			    background-color: #1a6187;
+			    overflow: hidden;
+			}
+			.to {
+			    display: grid;
+			    grid-template-columns: repeat(12,1fr);
+			    grid-template-rows: minmax(70px,auto);
+			}
+			 
+			form {
+			    border: 1px solid #80808;
+			    grid-column: 5/9;
+			    grid-row: 2;
+			    height: 490px;
+			    width: 450px;
+			    display: flex;
+			    flex-direction: column;
+			    align-items: center;
+			    position: relative;
+			    border-radius: 15px;
+			    box-shadow: 0px 0px 14px 0px grey;
+			    background-color: white;
+			}
+			h1 {
+			    margin-top: 50px;
+			    margin-bottom: 10px;
+			    color: #1a6187;
+			}
+			img {
+			    display: block;
+			    margin-bottom: 20px;
+			    font-size: 28px;
+			}
+			 
+			p {
+			    display: block;
+			    font-weight: lighter;			 
+			}
+			a {
+			    display: block;
+			    text-decoration: none;
+			    margin-top: 10px;
+			}
+			a:hover{
+			    color: red;
+			}
+			input{
+			    display: block;
+			    border-bottom: 2px solid #00BCD4;
+			    margin-top: 6px;
+			    margin-bottom: 10px;
+			    outline-style: none;
+			}
+			input[type="text"] {
+			    padding: 5px;
+			    width: 270px;
+			}
+			input[type="password"] {
+			    padding: 5px;
+			    width: 270px;
+			}
+			 
+			input[type="submit"] {
+			    padding: 7px;
+			    width: 150px;
+			    border-radius: 10px;
+			    border: none;
+			    cursor: pointer;
+			    text-align: center;
+			    margin-top: 30px;
+			    background: linear-gradient(to right, #fc00ff, #00dbde);
+			}
+			input[type="submit"]:hover{
+			 
+			    background: linear-gradient(to right, #fc466b, #3f5efb); 
+			}
+		</style>
+	</body>
+</html>

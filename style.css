@@ -1,0 +1,135 @@
+
+body{
+	background-color: #e7e7e7;
+	width: 100%;
+	height: 100%;
+}
+h1{
+	color: #313132;
+}
+.container-fluid{
+	margin: 0 auto;
+}
+.box{
+	padding: 10px;
+}
+.member {
+	margin: 0 auto;
+	width: 100%;
+}
+.col-md-2 .btn:hover {
+	background-color: #00c2e5;
+}
+.card-body {
+	background-color: #fff;
+}
+.card-body h4 {
+	color: #17a2b8;
+    font-size: 24px;
+}
+.card-body h5 {
+    color: #17a2b8;
+    font-size: 23px;
+}
+
+.box {
+	width: 20%;
+}
+.max-title {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+.max-title3 h3 {
+    font-size: 32px;
+    letter-spacing: -1px;
+    color: #313132;
+    padding-bottom: 25px;
+}
+.max-title3 h5 {
+    color: #313132;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.max-title:before, .max-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    height: 3px;
+}
+.max-title:before{
+    width: 140px;
+    background-color: #00c2e5;
+}
+.max-title:after {
+    background-color: #00c2e5;
+}
+.max-title h3:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate(-50%) rotate(45deg);
+    transform: translate(-50%) rotate(45deg);
+    z-index: 2;
+}
+.max-title3 h3:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent !important;
+    border-right: 12px solid transparent !important;
+    border-bottom: 18px solid #00c2e5;
+    z-index: 2;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.max-title3 h3:after{
+    width: 0;
+    height: 0;
+    bottom: -3px;
+    background-color: transparent;
+    border: 0;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+    border-bottom: 12px solid #fff !important;
+    -webkit-transform: translate(-50%) rotate(0);
+    transform: translate(-50%) rotate(0);
+}
+.vertical-space1{
+	height: 40px;
+	display: block;
+    width: 100%;
+    margin: 0;
+    clear: both;
+    border: 0 none;
+}
+.box a{
+    color: #fff;
+    background: #17a2b8;
+    border: 2px solid #fff;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.box a:hover{
+    background-color: #fff;
+    color: #17a2b8;
+    border: 2px solid #17a2b8;
+}
+
